@@ -1,9 +1,9 @@
 # SecureVehiclePlatooning_Demo
-<small> <b> 1. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b>
+<b> 1. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b>
 
 https://github.com/user-attachments/assets/4465746c-e5d2-4d6f-a16c-dcd8d21eac8d
 
-<sub>** 2. Three-vehicle platoon with encrypted CAM transmission <br> (Highway scenario)**
+ 2. Three-vehicle platoon with encrypted CAM transmission <br> (Highway scenario)**
 
 https://github.com/user-attachments/assets/4465746c-e5d2-4d6f-a16c-dcd8d21eac8d
 
