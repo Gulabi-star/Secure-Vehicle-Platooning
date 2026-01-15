@@ -1,5 +1,14 @@
 # SecureVehiclePlatooning_Demo
-<b> 1. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b> <br>
+<b> 1. Ten-vehicle platoon under replay-spoofing attack <br> (Map scenario) </b> <br>
+https://github.com/user-attachments/assets/e22bbd9b-287c-454d-9acf-769dca40a4ff
+
+<b> 2. Ten-vehicle platoon with encrypted CAMs under replay-spoofing attack <br> (Map scenario) </b> <br>
+https://github.com/user-attachments/assets/42ea6fd5-6953-421e-9aec-bc2e7097c498
+
+<b> 3. Ten-vehicle platoon with unencrypted CAMs transmission under no-attack <br> (Map scenario) </b> <br>
+https://github.com/user-attachments/assets/bc41dbbe-b854-4d85-b1c3-51119a0074df
+
+<b> 3. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b> <br>
 We use OMNeT++, and SUMO simulator to simulate vehicle platooning. OMNeT++ manages the wireless communication using Dedicated Short Range Communication (DSRC) protocol, while SUMO simulates and visualizes traffic flow on the road. To enable cooperative driving, we extend OMNeT++ with Veins and PLEXE. The video shows a highway scenario where three vehicles form a platoon, using DSRC for communication and a Cooperative Adaptive Cruise Control (CACC) to maintain safe spacing. The platoon performs coordinated braking, with all vehicles decelerating together while maintaining a safe distance. The vehicles continuously send and receive Cooperative Awareness Messages (CAMs) containing real-time data such as position, speed, and acceleration. This ensures smooth and safe braking. 
 
 https://github.com/user-attachments/assets/10c6bece-209f-4906-8c0b-e1b175ed74bb
@@ -13,6 +22,10 @@ https://github.com/user-attachments/assets/9288b730-9ce8-48f9-bddc-495ab1bd004f
 Building on the previous scenario where precision loss led to a collision, we introduce SPlatoon, a tool comprising a precision-aware CAD framework and a platoon simulation setup. The tool takes as input a traffic scenario, vehicle trajectories, and dynamics. It outputs the maximum safe platoon size along with the corresponding security parameters required to ensure both safe and secure platooning. These parameters are evaluated using platoon simulations on highway roads imported from OpenStreetMap. The video shows a route from Munich to Frankfurt, Germany, with red blocks representing urban structures. Throughout the trip, including the decleration phases, the platoon maintained coordination, with no collisions and all safety metrics are met. This validates the CAD framework’s outputs, showing that the secure CAM transmission, when configured with appropriate secuirty paramerets has minimal impact on coordination and safety.
 
 https://github.com/user-attachments/assets/7eaee705-da46-4e02-8f57-bf7fda95a73c
+
+
+
+
 
 
 
