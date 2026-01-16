@@ -6,7 +6,7 @@
 https://github.com/user-attachments/assets/42ea6fd5-6953-421e-9aec-bc2e7097c498
 
 <b> 3. Ten-vehicle platoon with unencrypted CAMs transmission under no-attack <br> (Map scenario) </b> <br>
-https://github.com/user-attachments/assets/bc41dbbe-b854-4d85-b1c3-51119a0074df
+https://github.com/user-attachments/assets/ece17676-1b39-428a-bd66-52d150fa0797
 
 <b> 4. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b> <br>
 We use OMNeT++, and SUMO simulator to simulate vehicle platooning. OMNeT++ manages the wireless communication using Dedicated Short Range Communication (DSRC) protocol, while SUMO simulates and visualizes traffic flow on the road. To enable cooperative driving, we extend OMNeT++ with Veins and PLEXE. The video shows a highway scenario where three vehicles form a platoon, using DSRC for communication and a Cooperative Adaptive Cruise Control (CACC) to maintain safe spacing. The platoon performs coordinated braking, with all vehicles decelerating together while maintaining a safe distance. The vehicles continuously send and receive Cooperative Awareness Messages (CAMs) containing real-time data such as position, speed, and acceleration. This ensures smooth and safe braking. 
