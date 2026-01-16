@@ -1,6 +1,6 @@
 # SecureVehiclePlatooning_Demo
 <b> 1. Ten-vehicle platoon under replay-spoofing attack <br> (Map scenario) </b> <br>
-https://github.com/user-attachments/assets/e22bbd9b-287c-454d-9acf-769dca40a4ff
+https://github.com/user-attachments/assets/ece17676-1b39-428a-bd66-52d150fa0797
 
 <b> 2. Ten-vehicle platoon with encrypted CAMs under replay-spoofing attack <br> (Map scenario) </b> <br>
 https://github.com/user-attachments/assets/42ea6fd5-6953-421e-9aec-bc2e7097c498
