@@ -1,7 +1,6 @@
 # SecureVehiclePlatooning_Demo
 4. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b> <br>
-## Simulation Demo attack video
-
+# Simulation Demo attack video
 https://github.com/user-attachments/assets/e84a85e5-59d2-4efc-b66a-4be3a822e9a3
 
 ## Simulation Demo secure platoon under attack
