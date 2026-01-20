@@ -3,6 +3,7 @@
 https://github.com/user-attachments/assets/973168c6-86bc-40e6-a929-2d10d9952649
 
 ## 2. Impact of Replay-Spoofing Attack on Unencrypted CAM Transmission in a Ten-Vehicle Platoon
+https://github.com/user-attachments/assets/e84a85e5-59d2-4efc-b66a-4be3a822e9a3
 
 ## 3. Mitigating Replay-Spoofing Attacks via Encrypted CAM Transmission in a Ten-Vehicle Platoon
 https://github.com/user-attachments/assets/d2ef0ac6-dd7f-443a-af9a-582d4581ffa0
