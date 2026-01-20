@@ -1,7 +1,12 @@
 # SecureVehiclePlatooning_Demo
 
-## Simulation Demo
+## Simulation Demo attack video
 https://github.com/user-attachments/assets/e84a85e5-59d2-4efc-b66a-4be3a822e9a3
+
+## Simulation Demo secure platoon under attack
+https://github.com/user-attachments/assets/d2ef0ac6-dd7f-443a-af9a-582d4581ffa0
+
+
 
 
 
