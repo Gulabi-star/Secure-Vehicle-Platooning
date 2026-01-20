@@ -2,7 +2,7 @@
 
 ## Simulation Demo
 https://github.com/user-attachments/assets/e84a85e5-59d2-4efc-b66a-4be3a822e9a3
-*Demo of secure CAM exchange in vehicle platoon under ASCON encryption*
+
 
 
 <b> 4. Three-vehicle platoon with unencrypted CAM transmission <br> (Highway scenario) </b> <br>
