@@ -24,9 +24,24 @@ Under the same replay-spoofing attack as in Case 2, **ASCON-based encrypted and 
 
 https://github.com/user-attachments/assets/d2ef0ac6-dd7f-443a-af9a-582d4581ffa0
 
-## Group B: Precision and CAD-Based Secure Platooning
+## Group B: Network Congestion Analysis 
 
-### 4. Three-Vehicle Platoon with Unencrypted CAM Transmission (Straight Highway Scenario)
+### 4. Ten-Vehicle Platoon under High Network Congestion using RP Encrypted CAMs
+A 100-vehicle highway scenario is simulated, where 10 vehicles form a platoon and the remaining 90 vehicles generate background traffic by broadcasting periodic 300-byte beacons. The platoon exchanges Reduced Precision (RP) ASCON-encrypted CAMs (234 bytes) while performing coordinated braking at 4 m/s².
+Despite the congested network, all vehicles maintain stable coordination and safe inter-vehicle spacing during deceleration. The smaller encrypted packet size enables timely communication, preserving platoon safety under heavy channel load.
+
+https://github.com/user-attachments/assets/c4000f00-9522-4b8f-85c0-fff648cd9803
+
+### 5. Ten-Vehicle Platoon under High Network Congestion using FP Encrypted CAMs
+Although authentication provides CAM security, the larger Full Precision (FP) encrypted CAM size (242 bytes) increases communication delay under congestion. During coordinated braking at 4 m/s², delayed CAM updates result in degraded spacing behavior and visible safety-bound violations.
+
+This highlights the trade-off between numerical precision and communication latency under highly congested network conditions.
+
+https://github.com/user-attachments/assets/cd4196e6-53a3-41c5-b60a-688e6858e53d
+
+## Group C: Precision and CAD-Based Secure Platooning
+
+### 6. Three-Vehicle Platoon with Unencrypted CAM Transmission (Straight Highway Scenario)
 
 This scenario uses a **simplified straight highway model** to study platoon behavior under controlled conditions. A **three-vehicle platoon** operates using **unencrypted CAM transmission** and a **CACC controller** to maintain safe spacing.
 
@@ -34,7 +49,7 @@ The video shows coordinated braking, with all vehicles decelerating together whi
 
 https://github.com/user-attachments/assets/10c6bece-209f-4906-8c0b-e1b175ed74bb
 
-### 5. Three-Vehicle Platoon using Reduced-Precision CAMs (Straight Highway Scenario)
+### 7. Three-Vehicle Platoon using Reduced-Precision CAMs (Straight Highway Scenario)
 
 This scenario considers the same straight highway setup as in Case 4, but with **ASCON-based encrypted CAM transmission** enabled. To control the size of encrypted packets and study its impact on platoon coordination, we apply **reduced-precision CAM** before encryption.
 
@@ -42,7 +57,7 @@ The video highlights the role of **precision-aware design** in preserving platoo
 
 https://github.com/user-attachments/assets/9288b730-9ce8-48f9-bddc-495ab1bd004f
 
-### 6. Ten-vehicle platoon with encrypted CAM transmission (Map scenario)
+### 8. Ten-vehicle platoon with encrypted CAM transmission (Map scenario)
 
 Building on the previous scenario where precision loss led to a collision, we introduce SPlatoon, a tool comprising a precision-aware CAD framework and a platoon simulation setup. The tool takes as input a traffic scenario, vehicle trajectories, and dynamics. It outputs the maximum safe platoon size along with the corresponding security parameters required to ensure both safe and secure platooning. These parameters are evaluated using platoon simulations on highway roads imported from OpenStreetMap. The video shows a route from Munich to Frankfurt, Germany, with red blocks representing urban structures. Throughout the trip, including the decleration phases, the platoon maintained coordination, with no collisions and all safety metrics are met. This validates the CAD framework’s outputs, showing that the secure CAM transmission, when configured with appropriate secuirty paramerets has minimal impact on coordination and safety.
 
